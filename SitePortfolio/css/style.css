@@ -1,0 +1,82 @@
+.header {
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    opacity: 0.9;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.images .header_img {
+    position: relative;
+    display: block;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+
+.header .fio_descr {
+    font-family: "Comic Sans MS";
+    color: white;
+}
+
+.header .spec_descr {
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 34px;
+}
+
+.mid {
+    position: absolute;
+    width: 100%;
+    height: 767px;
+}
+.zagolovok {
+    width: 0 auto;
+    height: 48px;
+    font-family: "Comic Sans MS";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.centrovoe {
+    display: flex;
+    justify-content: center;
+    width: 371px;
+    height: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    align-items:center;
+}
+.content-bg {
+    width: 100%; /* Ширина макета */
+    font-size: 21px;
+}
+
+.content-white {
+    font-family: "Comic Sans MS";
+    background: url(/css/image/pc2.jpg) center center/cover no-repeat;
+    width: 100%;
+    margin: 30 11px; /* Отступы по горизонтали */
+    padding: 20px 40px; /* Поля */
+    text-align: justify; /* Выравнивание по ширине */
+    color: white;
+}
+   
+
+
